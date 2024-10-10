@@ -16,8 +16,7 @@ import java.util.Set;
 @NoArgsConstructor
 @ToString
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Bloc {
-
+public class Bloc {///une modification
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long idBloc;
