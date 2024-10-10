@@ -18,6 +18,8 @@ import java.util.Set;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Etudiant {
 
+    //Modification 2
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long idEtudiant;
